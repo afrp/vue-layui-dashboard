@@ -264,6 +264,10 @@ export default {
             top: 50%;
             transform: translateY(-50%);
         }
+        .layui-date-picker[size=md] {
+            width: 100%;
+            height: 56px;            
+        }
         #purchaseDateInput{
             .layui-input-prefix{
                 display: none;
